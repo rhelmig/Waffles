@@ -9,8 +9,8 @@ def send_keys():
     pyautogui.press('enter')
 
 
-# Hack for injecting text inside an empty html body
-def iframe_text_solution():
+# Hack for injecting text inside an rich text box
+def rich_text_box_solution():
     for _ in itertools.repeat(None, 23):
         pyautogui.press('tab')
     pyautogui.typewrite('This is a test and only a test')

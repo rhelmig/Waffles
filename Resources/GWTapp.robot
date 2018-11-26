@@ -71,7 +71,7 @@ Rich Text
     go to                               http://samples.gwtproject.org/samples/Showcase/Showcase.html#!CwRichText
     wait until element is visible       xpath=(.//img[contains(@class, "gwt-Image")])[3]
     Click Image   	                    xpath=(.//img[contains(@class, "gwt-Image")])[3]
-    iframe text solution                # calls my python function
+    rich text box solution                # calls my python function
 
 
 Panel
